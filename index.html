@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VESTA — Considered clothing</title>
+<meta name="description" content="VESTA — considered clothing, worn often. Ten pieces built to outlast a season.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%2316211C'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%23B4813C' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="root"></div>
+
+<!-- React + in-browser JSX compiler -->
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<!-- App files, split up and loaded in dependency order -->
+<script type="text/babel" src="js/data.js"></script>
+<script type="text/babel" src="js/components/common.jsx"></script>
+<script type="text/babel" src="js/components/pages.jsx"></script>
+<script type="text/babel" src="js/app.jsx"></script>
+</body>
+</html>
