@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VESTA — Considered clothing</title>
-<meta name="description" content="VESTA — considered clothing, worn often. Ten pieces built to outlast a season.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%2316211C'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%23B4813C' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#16211C">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>VESTA — Considered Clothing</title>
+  <meta name="description" content="VESTA — considered clothing, worn often. Small batches cut in genuine natural cloth, tailored to outlast fleeting seasons.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%2316211C'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%23B4813C' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+
+  <!-- Typography: Fraunces (Editorial Serif) + Space Grotesk (Sans) + IBM Plex Mono (Monospace) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="root"></div>
+  <div id="root">
+    <div style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #EDEAE1; color: #16211C; font-family: 'Fraunces', serif;">
+      <div style="font-size: 32px; letter-spacing: 0.05em; margin-bottom: 12px;">VE<span style="color: #B4813C;">S</span>TA</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #5B584E;">Considered clothing, worn often</div>
+    </div>
+  </div>
 
-<!-- React + in-browser JSX compiler -->
-<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- React 18 + Babel Standalone runtime -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-<!-- App files, split up and loaded in dependency order -->
-<script type="text/babel" src="js/data.js"></script>
-<script type="text/babel" src="js/components/common.jsx"></script>
-<script type="text/babel" src="js/components/pages.jsx"></script>
-<script type="text/babel" src="js/app.jsx"></script>
+  <!-- Modular React App Scripts -->
+  <script type="text/babel" src="js/data.js"></script>
+  <script type="text/babel" src="js/components/common.jsx"></script>
+  <script type="text/babel" src="js/components/pages.jsx"></script>
+  <script type="text/babel" src="js/app.jsx"></script>
 </body>
 </html>
