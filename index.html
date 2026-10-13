@@ -20,20 +20,16 @@
 <body>
   <div id="root">
     <div style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #EDEAE1; color: #16211C; font-family: 'Fraunces', serif;">
-      <div style="font-size: 32px; letter-spacing: 0.05em; margin-bottom: 12px;">VE<span style="color: #B4813C;">S</span>TA</div>
+      <div style="font-size: 34px; letter-spacing: 0.05em; margin-bottom: 12px;">VE<span style="color: #B4813C;">S</span>TA</div>
       <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #5B584E;">Considered clothing, worn often</div>
     </div>
   </div>
 
-  <!-- React 18 + Babel Standalone runtime -->
+  <!-- React 18 Production Runtime -->
   <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <!-- Modular React App Scripts -->
-  <script type="text/babel" src="js/data.js"></script>
-  <script type="text/babel" src="js/components/common.jsx"></script>
-  <script type="text/babel" src="js/components/pages.jsx"></script>
-  <script type="text/babel" src="js/app.jsx"></script>
+  <!-- Pre-compiled Standalone Storefront Bundle (Runs seamlessly on file:/// and HTTP localhost with zero CORS lag) -->
+  <script src="js/vesta.bundle.js"></script>
 </body>
 </html>
