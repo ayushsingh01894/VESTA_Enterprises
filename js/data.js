@@ -186,8 +186,8 @@ const PRODUCTS = [
       "Dry flat on drying rack"
     ],
     reviews: [
-      { author: "Aditi S.", rating: 5, date: "1 week ago", title: "Incredibly warm and soft", comment: "The Moss green is grounding and timeless. I wear it three times a week." },
-      { author: "Rohan B.", rating: 5, date: "3 weeks ago", title: "Heavyweight perfection", comment: "Substantial weight without feeling suffocating. True artisanal craftsmanship." }
+      { author: "Ayush S.", rating: 5, date: "1 week ago", title: "Incredibly warm and soft", comment: "The Moss green is grounding and timeless. I wear it three times a week." },
+      { author: "Prince Singh .", rating: 5, date: "3 weeks ago", title: "Heavyweight perfection", comment: "Substantial weight without feeling suffocating. True artisanal craftsmanship." }
     ]
   },
   {
