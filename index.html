@@ -28,9 +28,13 @@
   <!-- React 18 Production Runtime -->
   <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <!-- Pre-compiled Standalone Storefront Bundle (Runs seamlessly on file:/// and HTTP localhost with zero CORS lag) -->
-  <script src="js/vesta.bundle.js"></script> 
+  <!-- Shared storefront data and view logic -->
+  <script src="js/data.js"></script>
+  <script type="text/babel" data-presets="react" src="js/components/common.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/components/pages.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/app.jsx"></script>
 </body>
 </html>
 
